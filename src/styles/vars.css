@@ -1,0 +1,17 @@
+:root {
+
+  /* Color */
+  --color-bg: #333;
+  --color-main: #fff;
+  --color-secondary: #ababab;
+  --color-border: #dfc5ff;
+
+  /* Shadows */
+  --shadow-main: 0px 0px 4px 3px rgba(70, 71, 72, 0.902);
+
+  /* Typography */
+  --ff-main: 'Montserrat', sans-serif;
+
+  /* Misc */
+  --radius: 4px;
+}

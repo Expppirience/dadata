@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./src/styles/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main class="container">
+    <form class="form" id="autocomplete-form">
+      <div class="form__field form__field_1 field-form ">
+        <label class="field-form__label" for="name">Компания или ИП</label>
+        <input class="field-form__input" placeholder="Введите название организации" type="text" name="company" id="autocomplete-company">
+        <div class="dropdown" data-autocomplete-dropdown>
+          <ul class="dropdown__list" data-autocomplete-list>
+          </ul>
+          <div class="dropdown__loader"></div>
+        </div>
+      </div>
+      <div class="form__field form__field_2 field-form ">
+        <label class="field-form__label" for="name">Краткое наименование</label>
+        <input class="field-form__input" type="text" name="short-name" id="autocomplete-short">
+      </div>
+      <div class="form__field form__field_3 field-form ">
+        <label class="field-form__label" for="name">Полное наименование</label>
+        <input class="field-form__input" type="text" name="full-name" id="autocomplete-full">
+      </div>
+      <div class="form__field form__field_4 field-form ">
+        <label class="field-form__label" for="name">ИНН / КПП</label>
+        <input class="field-form__input" type="text" name="docs" id="autocomplete-docs">
+      </div>
+      <div class="form__field form__field_5 field-form ">
+        <label class="field-form__label" for="name">Адрес</label>
+        <input class="field-form__input" type="text" name="adress" id="autocomplete-adress">
+      </div>
+    </ащкь>
+  </main>
+
+  <script type="module" src="./src/scripts/index.js"></script>
+</body>
+</html>

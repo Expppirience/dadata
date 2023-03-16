@@ -1,0 +1,54 @@
+.form {
+  margin: 10rem auto 0 auto;
+  max-width: 400px;
+}
+.form__field {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+}
+
+.form__field:not(:last-child) {
+  margin-bottom: 0.6rem;
+}
+
+.form__field_1 {
+  
+}
+
+.form__field_1:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.form__field_1 {
+  
+}
+
+.form__field_1 {
+  
+}
+
+.form__field_1 {
+  
+}
+
+.field-form__label {
+
+}
+
+.field-form__input {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: transparent;
+  
+  padding: 0.3rem;
+  
+  color: var(--color-main);
+}
+
+.field-form {
+
+}

@@ -1,0 +1,14 @@
+@import "null.css";
+@import "vars.css";
+@import "main.css";
+
+
+body {
+  background: var(--color-bg);
+  color: var(--color-main);
+  font-family: var(--ff-main);
+}
+
+[class*="container"] {
+  padding: 0 1rem;
+}
